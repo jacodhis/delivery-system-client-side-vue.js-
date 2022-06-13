@@ -27,6 +27,7 @@
 
 <script>
 import axios from 'axios'
+
 export default{
       data(){
           return{
@@ -45,7 +46,7 @@ export default{
                 email:this.email,
                 password:this.password,
             }
-               await axios.post('http://127.0.0.1:8000/api/register',data)
+               await axios.post( 'register',data)
                 this.$router.push({path:'/login'}) 
           }
       }

@@ -1,11 +1,13 @@
 <template>
     <div>
         <div class="container">
-         <h1 style="text-align:center">OUR DELIVERABLES</h1>
-         <hr>
-         <div>
-             <router-link to="/myorders" class="nav-link">myOrders</router-link>
-         </div>
+           <div class="">
+             <h1 style="text-align:center">OUR DELIVERABLES</h1>
+                <hr>
+                <div style="text-align:right" class="pb-3">
+                    <router-link to="/myorders" class=" btn btn-success ">myOrders</router-link>
+                </div>
+           </div>
          <div>
              <table class="table table-hover">
                  <thead class="bg-dark" style="color:white">

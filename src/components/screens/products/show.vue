@@ -45,11 +45,11 @@ export default{
     },
     methods:{
         async getProduct(){
-           const response = await axios.get("http://127.0.0.1:8000/api/product/show/"+this.$route.params.id)
+           const response = await axios.get("product/show/"+this.$route.params.id)
            this.product = response.data.data
         },
           async getLocations(){
-           const response = await axios.get("http://127.0.0.1:8000/api/locations")
+           const response = await axios.get("locations")
             this.loactions = response.data
         },
 
@@ -61,7 +61,7 @@ export default{
                 product_id:this.$route.params.id,
                 customer_id:localStorage.getItem('user')
             }
-         await axios.post('http://127.0.0.1:8000/api/order',data)
+         await axios.post('order',data)
           this.$router.push({path:'/'}) 
 
         }
