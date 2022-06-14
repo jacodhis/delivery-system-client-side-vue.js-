@@ -20,7 +20,7 @@
                         <td>{{singleOrder.quantity}}</td>
                         <td>{{singleOrder.product?.description}}</td>
                         <td>{{singleOrder.location?.name}}</td>
-                         <td>{{singleOrder.status?.name}}</td>
+                         <td style="color:green">{{singleOrder.status?.name}}</td>
                         
                     </tr>
 

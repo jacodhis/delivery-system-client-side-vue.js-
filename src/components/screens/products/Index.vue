@@ -5,7 +5,7 @@
              <h1 style="text-align:center">OUR DELIVERABLES</h1>
                 <hr>
                 <div style="text-align:right" class="pb-3">
-                    <router-link to="/myorders" class=" btn btn-success ">myOrders</router-link>
+                    <router-link to="/ods/myorders" class=" btn btn-success ">myOrders</router-link>
                 </div>
            </div>
          <div>
@@ -25,7 +25,7 @@
                          <td>{{product.name}}</td>
                          <td>{{product.description}}</td>
                          <td>{{product.location}}</td>
-                         <td><router-link :to=" `/product/show/${product.id}` " class="btn btn-primary">Order</router-link> </td>
+                         <td><router-link :to=" `/ods/product/show/${product.id}` " class="btn btn-primary">Order</router-link> </td>
                      </tr>
                       
                  </tbody>

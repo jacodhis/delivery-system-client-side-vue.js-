@@ -47,7 +47,7 @@ export default{
                 password:this.password,
             }
                await axios.post( 'register',data)
-                this.$router.push({path:'/login'}) 
+                this.$router.push({path:'/ods/login'}) 
           }
       }
 }

@@ -10,33 +10,33 @@ import ShowMyOrders from './components/screens/orders/MyOrders.vue'
 
 const routes = [
   {
-    path: "/",
+    path: "/ods/",
     name: "home",
     component: home,
   },
   {
-    path: "/login",
-    name: "login",
+    path: "/ods/login",
+    name: 'login',
     component: Login,
   },
   {
-    path: "/register",
+    path: "/ods/register",
     name: "register",
     component: Register,
   },
   {
-      path:"/logout",
+      path:"/ods/logout",
       name:"logout",
       component:Logout
   },
   {
-    path: "/product/show/:id",
+    path: "/ods/product/show/:id",
     name: "single-order",
     component: ShowSingleOrder,
   },
   {
-    path: "/myorders",
-    name: "myordes",
+    path: "/ods/myorders",
+    name: "myorders",
     component: ShowMyOrders,
   },
 
@@ -46,6 +46,7 @@ const routes = [
 const router = createRouter({
   history: createWebHistory(),
   routes,
+  
 });
 
 export default router;

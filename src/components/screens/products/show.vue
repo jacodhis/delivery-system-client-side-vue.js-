@@ -62,7 +62,7 @@ export default{
                 customer_id:localStorage.getItem('user')
             }
          await axios.post('order',data)
-          this.$router.push({path:'/'}) 
+          this.$router.push({path:'/ods/'}) 
 
         }
     },

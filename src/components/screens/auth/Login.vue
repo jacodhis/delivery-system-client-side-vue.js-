@@ -43,7 +43,7 @@ export default{
                    
                    localStorage.setItem('token',response.data.token)
                     localStorage.setItem('user',response.data.user.id)
-                    this.$router.push({path:'/'}) 
+                    this.$router.push({name:'home'}) 
               }else{
                   console.log('error')
               }

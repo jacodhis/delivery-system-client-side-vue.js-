@@ -13,7 +13,7 @@
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav me-auto">
                        <li class="nav-item">
-                            <router-link to="/">Order Delivery System</router-link>
+                            <router-link to="/ods/">Order Delivery System</router-link>
                         </li>
                                
                     </ul>
@@ -23,10 +23,10 @@
                         <!-- Authentication Links -->
                        
                                 <li class="nav-item">
-                                    <router-link to="/login" class="nav-link">Login</router-link>
+                                    <router-link to="/ods/login" class="nav-link">Login</router-link>
                                 </li>
                                  <li class="nav-item">
-                                    <router-link to="/register" class="nav-link">Sign Up</router-link>
+                                    <router-link to="/ods/register" class="nav-link">Sign Up</router-link>
                                 </li>
                        
                           
@@ -34,7 +34,7 @@
                     </ul>
                      <ul class="navbar-nav ms-auto" v-if="token">
                             <li class="nav-item">
-                               <router-link to="/logout" class="nav-link">Logout</router-link>
+                               <router-link to="/ods/logout" class="nav-link">Logout</router-link>
                             </li>
                     </ul>
                 </div>
