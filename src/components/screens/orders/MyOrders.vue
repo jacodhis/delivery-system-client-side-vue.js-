@@ -6,7 +6,7 @@
              <table class="table table-hover">
                  <thead class="bg-dark" style="color:white">
                      <tr>
-                         <td>Order</td>
+                         <td>Order(s)</td>
                          <td>Quantity</td>
                          <td>Description</td>
                          <td>Location</td>
